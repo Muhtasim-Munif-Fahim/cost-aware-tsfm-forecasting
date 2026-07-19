@@ -1,0 +1,6 @@
+model,seed,MAE,RMSE,MASE,nRMSE,RMSE_pct_mean,latency_s,per_forecast_ms,energy_j_per_1k,usd_per_1k,measured_j_per_1k,measured_usd_per_1k,measured_cpu_j_per_1k,measured_gpu_j_per_1k,energy_source,n_params
+seasonal_naive,,6.9299,8.4462,0.7583,1.7276,75.9205,0.0,0.0,0.04,0.0,1.52,6e-08,0.0,0.0,codecarbon,0
+lgbm_direct,,3.3079,4.2513,0.362,0.8696,38.2136,0.958,6.653,605.43,2.5e-05,10789.66,0.00044957,2828.02,6794.61,codecarbon,186000
+nas_gru,42.0,3.4548,4.4234,0.3781,0.9048,39.7611,0.01,0.071,29.71,1e-06,7731.43,0.00032214,133.55,7095.61,codecarbon,157080
+chronos,,2.993,3.7612,0.3275,0.7693,33.8088,0.458,3.182,1336.39,5.6e-05,1050.25,4.376e-05,19.71,882.78,codecarbon,47718016
+chronos_cov,,3.1965,4.0114,0.3498,0.8205,36.0576,0.365,2.535,1064.9,4.4e-05,810.93,3.379e-05,6.39,687.23,codecarbon,47718016

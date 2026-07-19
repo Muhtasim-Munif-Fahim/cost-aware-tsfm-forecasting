@@ -1,0 +1,8 @@
+comparison,n,mean_diff,ci95_lo,ci95_hi,tost90_lo,tost90_hi,p_tost,equivalent_at_0p05
+pm25-perfect: lgbm_direct vs chronos (per city),29,-0.0,-0.049,0.0467,-0.0419,0.0418,0.0259,True
+pm25-causal: lgbm_direct vs chronos (per city),29,0.0297,-0.0169,0.0772,-0.0115,0.0709,0.2045,False
+weather-causal: lgbm_direct vs chronos (per city),29,-0.0479,-0.122,0.0263,-0.1143,0.0184,0.479,False
+E4 pm25: nas_transfer@0% vs chronos_zeroshot,15,0.0559,0.0093,0.1182,0.005,0.1068,0.5798,False
+E4 pm25: nas_transfer@1% vs chronos_zeroshot,15,0.0716,0.0119,0.1361,0.0145,0.1287,0.7423,False
+E4 pm25: nas_transfer@10% vs chronos_zeroshot,15,0.0451,-0.0094,0.1119,-0.0118,0.1019,0.4402,False
+E4 pm25: nas_transfer@100% vs chronos_zeroshot,15,0.0332,-0.0115,0.0793,-0.0091,0.0754,0.2469,False
