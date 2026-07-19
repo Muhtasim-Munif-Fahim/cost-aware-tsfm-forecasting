@@ -1,0 +1,11 @@
+# Core harness
+numpy
+pandas
+lightgbm
+matplotlib
+scikit-learn        # Ridge/StandardScaler for chronos_cov
+shap                # specialist interpretability (single mode --shap)
+
+# Foundation-model tier (optional but required for --with-chronos; GPU recommended)
+torch
+chronos-forecasting

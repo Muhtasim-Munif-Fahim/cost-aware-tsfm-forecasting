@@ -1,0 +1,72 @@
+{
+  "argv": [
+    "run_forecast.py",
+    "regime",
+    "--source",
+    "csv",
+    "--data-path",
+    "data/cities/seoul.csv",
+    "--with-chronos",
+    "--retrain-per-fold",
+    "--folds",
+    "6",
+    "--train-weeks",
+    "4,12,26,52,104",
+    "--wtp",
+    "0,500,1500,5000,20000",
+    "--causal-covariates",
+    "--out-prefix",
+    "results/v1/regime/causal_seoul_pm25"
+  ],
+  "resolved_args": {
+    "mode": "regime",
+    "source": "csv",
+    "pm25_window_dir": "data/cities_final",
+    "data_path": "data/cities/seoul.csv",
+    "column": null,
+    "weather_path": null,
+    "weather_col": null,
+    "horizon": 24,
+    "folds": 6,
+    "retrain_per_fold": true,
+    "causal_cov": true,
+    "with_chronos": true,
+    "with_nas": false,
+    "seeds": null,
+    "chronos_model": "amazon/chronos-bolt-small",
+    "price_kwh": 0.15,
+    "cpu_tdp": 65.0,
+    "gpu_tdp": 300.0,
+    "pue": 1.4,
+    "measure_energy": false,
+    "min_hours": 2160,
+    "out_prefix": "results/v1/regime/causal_seoul_pm25",
+    "train_weeks": "4,12,26,52,104",
+    "wtp": "0,500,1500,5000,20000",
+    "shap": false
+  },
+  "git_commit": "1856362ab2d9b81030d2beccd28588e65bd81365",
+  "inputs": {
+    "data_path": {
+      "path": "data/cities/seoul.csv",
+      "sha256": "c4d4228a24b0d37101667317b78448f4499cba62935d8127ea118ae6efbdbed1"
+    }
+  },
+  "package_versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "lightgbm": "4.6.0",
+    "sklearn": "1.5.2",
+    "torch": "2.6.0+cu124",
+    "chronos": "2.3.1",
+    "matplotlib": "3.10.3",
+    "shap": "0.49.1"
+  },
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 3060 Ti",
+    "cuda": "12.4"
+  },
+  "hostname": "Fahim",
+  "python_version": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "timestamp_utc": "2026-07-15T16:32:24.091570+00:00"
+}

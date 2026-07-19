@@ -1,0 +1,4 @@
+test,comparison,n_cities,spec_wins,fm_wins,statistic,p_value
+binomial_sign,lgbm_direct_vs_chronos,29,8.0,21.0,,0.0241195447742939
+wilcoxon_signed_rank,lgbm_direct_vs_chronos,29,,,137.0,0.08367564529180527
+friedman,all_tiers,29,,,54.84137931034479,3.50736048735286e-11
