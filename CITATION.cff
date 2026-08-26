@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, data, or results, please cite the paper below."
+title: "Cost-Aware Evaluation of Time-Series Foundation Models for Urban Air-Quality and Temperature Forecasting"
+type: software
+authors:
+  - family-names: "Fahim"
+    given-names: "Md Muhtasim Munif"
+  - family-names: "Karim"
+    given-names: "Md. Rezaul"
+    email: "mrkarim@ru.ac.bd"
+    affiliation: "Data Science Research Lab, Department of Statistics, University of Rajshahi, Rajshahi-6205, Bangladesh"
+year: 2026
+license: MIT
+repository-code: "https://github.com/Muhtasim-Munif-Fahim/cost-aware-tsfm-forecasting"
+keywords:
+  - time-series foundation models
+  - air-quality forecasting
+  - PM2.5
+  - temperature forecasting
+  - cost-aware machine learning
+  - neural architecture search
+preferred-citation:
+  type: article
+  title: "Cost-Aware Evaluation of Time-Series Foundation Models for Urban Air-Quality and Temperature Forecasting"
+  authors:
+    - family-names: "Fahim"
+      given-names: "Md Muhtasim Munif"
+    - family-names: "Karim"
+      given-names: "Md. Rezaul"
+  year: 2026
+  journal: "Scientific Reports"  # under review
