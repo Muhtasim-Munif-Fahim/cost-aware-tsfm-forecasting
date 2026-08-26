@@ -1,0 +1,11 @@
+model_a,model_b,n_cities,n_significant,a_sig_wins,b_sig_wins,median_p_value
+chronos,chronos_cov,29,14,5,9,0.06595829807089591
+chronos,nas_gru,29,14,13,1,0.05830398979520005
+chronos_cov,nas_gru,29,18,16,2,0.001181365725674585
+lgbm_direct,chronos,29,16,16,0,0.031202755944100533
+lgbm_direct,chronos_cov,29,13,13,0,0.05973521019488035
+lgbm_direct,nas_gru,29,24,24,0,1.4950772018036275e-06
+seasonal_naive,chronos,29,27,0,27,0.00042172425453361
+seasonal_naive,chronos_cov,29,26,0,26,0.0001259044967067084
+seasonal_naive,lgbm_direct,29,29,0,29,7.86711922278644e-06
+seasonal_naive,nas_gru,29,21,2,19,0.0012712490640281035

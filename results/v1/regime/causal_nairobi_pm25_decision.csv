@@ -1,0 +1,5 @@
+train_weeks,wtp=0,wtp=500,wtp=1500,wtp=5000,wtp=20000
+4,chronos,chronos,chronos_cov,lgbm_direct,nas_gru
+12,chronos,chronos,chronos,lgbm_direct,nas_gru
+26,chronos,chronos,chronos,chronos_cov,nas_gru
+52,chronos_cov,chronos_cov,chronos_cov,lgbm_direct,nas_gru

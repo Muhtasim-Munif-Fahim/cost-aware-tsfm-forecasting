@@ -1,0 +1,18 @@
+comparison,n,mean_diff,ci95_lo,ci95_hi,tost90_lo,tost90_hi,p_tost,equivalent_at_0p05
+pm25-perfect: lgbm_direct vs chronos (per city),29,-1.628e-05,-0.04899409,0.04671877,-0.04186954,0.04183698,0.02589142,True
+pm25-causal: lgbm_direct vs chronos (per city),29,0.02970118,-0.01685846,0.07719496,-0.01150197,0.07090433,0.20454557,False
+weather-causal: lgbm_direct vs chronos (per city),29,-0.04793152,-0.12203265,0.02630199,-0.11430692,0.01844388,0.479049,False
+pm25-causal: lgbm_direct vs timesfm (per city),29,0.03284208,-0.00743374,0.07661111,-0.0040112,0.06969536,0.21750921,False
+"pm25-causal: chronos vs timesfm (FM vs FM, per city)",29,0.0031409,-0.01640821,0.02251483,-0.01401511,0.0202969,3.645e-05,True
+pm25-causal: chronos-small vs chronos-base (scale within family),29,0.00251166,-0.01455156,0.02043051,-0.01322989,0.01825321,9.67e-06,True
+pm25-causal: chronos-base vs timesfm (family at matched scale),29,0.00062924,-0.01937346,0.02056097,-0.01690687,0.01816535,2.467e-05,True
+pm25-causal: lgbm_direct vs chronos-base (per city),29,0.03221284,-0.00603549,0.07478647,-0.00332908,0.06775476,0.20090131,False
+weather-causal: lgbm_direct vs timesfm (per city),29,-0.08461355,-0.14800797,-0.02223109,-0.14039431,-0.0288328,0.84991285,False
+"weather: chronos vs timesfm (FM vs FM, per city)",29,-0.03668204,-0.07736023,0.00055817,-0.07124686,-0.00211721,0.25876301,False
+weather: chronos-small vs chronos-base (scale within family),29,-0.01315898,-0.03334899,0.0072433,-0.03098013,0.00466216,0.00075474,True
+weather: chronos-base vs timesfm (family at matched scale),29,-0.02352305,-0.06456442,0.01522953,-0.05864211,0.011596,0.105089,False
+weather-causal: lgbm_direct vs chronos-base (per city),29,-0.0610905,-0.12873858,0.0055457,-0.12114136,-0.00103964,0.62214091,False
+E4 pm25: nas_transfer@0% vs chronos_zeroshot,15,0.05592575,0.00933547,0.1182197,0.0050458,0.1068057,0.57978906,False
+E4 pm25: nas_transfer@1% vs chronos_zeroshot,15,0.07163628,0.01189037,0.13605695,0.01452343,0.12874913,0.74226778,False
+E4 pm25: nas_transfer@10% vs chronos_zeroshot,15,0.04505856,-0.0093777,0.1119412,-0.01178389,0.10190102,0.44024649,False
+E4 pm25: nas_transfer@100% vs chronos_zeroshot,15,0.03315295,-0.01152444,0.07926721,-0.00907647,0.07538237,0.24689353,False
