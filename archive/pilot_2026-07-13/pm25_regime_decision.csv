@@ -1,0 +1,6 @@
+train_weeks,wtp=0,wtp=5000,wtp=20000,wtp=100000
+4,lgbm_direct,lgbm_direct,seasonal_naive,seasonal_naive
+12,lgbm_direct,lgbm_direct,seasonal_naive,seasonal_naive
+26,lgbm_direct,lgbm_direct,lgbm_direct,seasonal_naive
+52,lgbm_direct,lgbm_direct,lgbm_direct,seasonal_naive
+104,lgbm_direct,lgbm_direct,lgbm_direct,seasonal_naive

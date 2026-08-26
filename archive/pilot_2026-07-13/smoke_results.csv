@@ -1,0 +1,3 @@
+model,MAE,RMSE,MASE,nRMSE,RMSE_pct_mean,latency_s,per_forecast_ms,n_params
+seasonal_naive,2.2568,2.8939,0.6624,0.3133,4.5369,0.0,0.0,0
+lgbm,3.3931,4.1183,0.9959,0.4458,6.4565,2.34,9.751,9300
