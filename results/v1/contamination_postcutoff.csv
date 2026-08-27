@@ -1,0 +1,11 @@
+city,tier,post_hours,MASE_chronos,MASE_lgbm_direct,MASE_seasonal_naive,chronos_beats_lgbm
+amsterdam,rich,11228,0.2434,0.2488,0.8137,True
+bangkok,rich,4823,0.1329,0.1955,0.4282,True
+berlin,rich,15276,0.2383,0.2552,0.4929,True
+lahore,scarce,3369,0.4677,0.5116,0.7342,True
+los_angeles,rich,7757,0.5323,0.5215,0.7095,False
+madrid,rich,6431,0.6901,0.346,0.7553,False
+manila,scarce,10992,0.9352,0.9108,1.655,False
+new_york,rich,8499,0.4248,0.4702,0.631,True
+seoul,rich,15237,0.3207,0.3385,0.7424,True
+vienna,rich,6241,0.1665,0.1508,0.5285,False

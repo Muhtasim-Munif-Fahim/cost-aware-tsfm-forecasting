@@ -1,0 +1,91 @@
+# Data (large / re-fetchable) — regenerate via city_select.py + batch_fetch.py.
+# NOTE: data/* (not data/) so the negation below can re-include one file -- git cannot
+# re-include a path whose PARENT DIRECTORY was excluded wholesale, only a directory whose
+# CONTENTS were excluded per-entry.
+data/*
+# ...except small audit artifacts that ARE the reproducibility record, not re-fetchable bulk data
+!data/manifest.sha256
+
+# Never commit secrets
+*.key
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Claude Code session state (not project content)
+.claude/
+
+# Keep code, manifest, README, and result artifacts (*.png, *_results.csv) tracked.
+
+# LaTeX build artifacts (paper/latex)
+paper/latex/*.aux
+paper/latex/*.log
+paper/latex/*.out
+paper/latex/*.bbl
+paper/latex/*.blg
+paper/latex/c*.log
+paper/latex/compile*.log
+paper/latex/bibtex.log
+
+# LaTeX build artifacts (any location) + stray root logs
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+/*.log
+
+# Run logs and ad-hoc runner scripts are not part of the reproducibility record
+# (RESULTS_LEDGER.md is). They may embed absolute local paths.
+results/**/*.log
+results/**/*.sh
+
+# Built manuscript PDFs live in MANUSCRIPT/; the paper/latex/ copies are build output
+paper/latex/*.pdf
+
+# Regenerable model checkpoints
+*.pt
+
+# LaTeX manuscript source + templates are NOT published (built PDFs ship instead).
+# Regenerate .tex table/figure fragments locally via make_tables.py / build.sh.
+*.tex
+*.cls
+*.sty
+*.bst
+*.ldf
+*.bib
+
+# Internal-only working material — kept locally, never published
+paper/submission/
+# Hand-off staging folders for the journal upload: these hold the cover letter and the
+# submission zip, which must never reach the public release.
+cost-ware-tsfm/
+cost-aware-tsfm/
+# Office lock files (~$foo.docx) — appear whenever a .docx is open
+~$*
+# Stray root-level copy of the cover letter (canonical one lives in paper/submission/).
+# Submission-private: must never be stageable by `git add -A` on the public-release branch.
+/COVER_LETTER.docx
+# Flat journal-submission package: LaTeX sources are never published, and the figure
+# PDFs/zip inside would otherwise escape the *.tex/*.cls/*.sty rules above.
+SUBMISSION/
+SUBMISSION.zip
+paper/SUPERVISOR_REVIEW_PROMPT.md
+paper/SUPERVISOR_REVIEW_FINDINGS.md
+paper/RESPONSE_TO_REVIEWERS.md
+paper/MERGED_PAPER_PLAN.md
+Nature Review Assistant AI/
+SciRep/
+
+# LaTeX/PDF table-of-contents build artifacts
+*.toc
+
+# Upload folder assembled by paper/latex/make_revision_package.py (pure build output)
+Revision_Package/
+
+# Zenodo upload staging folder (build output; extracted from Zenodo_Deposit.zip)
+Zenodo_Upload/

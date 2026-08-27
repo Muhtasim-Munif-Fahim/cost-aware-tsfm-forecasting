@@ -1,0 +1,16 @@
+model_a,model_b,n_cities,n_significant,a_sig_wins,b_sig_wins,a_sig_wins_fdr,b_sig_wins_fdr,median_p_value
+chronos,chronos_cov,29,5,2,3,2,1,0.370270617835847
+chronos,timesfm,29,4,3,1,1,0,0.4149547053690732
+chronos,timesfm_cov,29,4,2,2,2,1,0.42133049158751446
+chronos_cov,timesfm,29,10,7,3,2,1,0.10176219977006662
+chronos_cov,timesfm_cov,29,1,1,0,0,0,0.32464273746810457
+lgbm_direct,chronos,29,11,11,0,6,0,0.16731419028460306
+lgbm_direct,chronos_cov,29,9,9,0,6,0,0.15322078589101032
+lgbm_direct,timesfm,29,14,14,0,11,0,0.056495748466237394
+lgbm_direct,timesfm_cov,29,8,8,0,7,0,0.1494732270522446
+seasonal_naive,chronos,29,20,0,20,0,16,0.01731026125783877
+seasonal_naive,chronos_cov,29,21,0,21,0,20,0.009974162551893217
+seasonal_naive,lgbm_direct,29,26,0,26,0,26,0.0006877438579905378
+seasonal_naive,timesfm,29,18,0,18,0,13,0.02851296738991703
+seasonal_naive,timesfm_cov,29,19,0,19,0,17,0.022587595034207868
+timesfm,timesfm_cov,29,8,3,5,2,3,0.25798823727855796

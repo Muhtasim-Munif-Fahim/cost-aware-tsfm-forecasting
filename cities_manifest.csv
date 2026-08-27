@@ -1,0 +1,33 @@
+city,country,tier,sensor_id,first,last,years,station
+Los Angeles,US,rich,25551,2016-03,2026-07,10.3,Compton
+New York,US,rich,673,2016-03,2026-07,10.3,CCNY
+London,GB,rich,206,2016-01,2026-07,10.5,Haringey Roadside - UKA00260
+Paris,FR,rich,1582598,2016-11,2026-07,9.7,PARIS 18eme
+Berlin,DE,rich,1300115,2016-11,2026-07,9.7,Berlin Neukölln
+Madrid,ES,rich,10378,2016-11,2026-07,9.7,CASA DE CAMPO
+Toronto,CA,rich,2914,2016-03,2021-01,4.8,Toronto Downtown
+Amsterdam,NL,rich,4235,2016-01,2026-07,10.5,Amsterdam-Van Diemenstraat
+Vienna,AT,rich,30223,2016-11,2026-07,9.7,A23 Südosttangente/Wehlistraße
+Sydney,AU,rich,21610,2016-02,2022-11,6.8,Rozelle
+Santiago,CL,rich,1044,2016-01,2026-07,10.5,Parque O'Higgins
+Mexico City,MX,rich,2034,2016-03,2026-07,10.3,Hospital General de México
+Bangkok,TH,rich,1304255,2016-01,2026-07,10.5,Sukhothai Thammathirat Open University
+Seoul,KR,rich,8533919,2024-03,2026-07,2.3,홍릉로
+Krakow,PL,rich,20854,2018-11,2026-07,7.7,"Kraków, ul. Bujaka"
+Dhaka,BD,scarce,24434,2016-11,2025-03,8.3,Dhaka
+Delhi,IN,scarce,35,2016-02,2026-07,10.4,"R K Puram, Delhi - DPCC"
+Mumbai,IN,scarce,23320,2016-11,2025-03,8.3,Mumbai
+Kolkata,IN,scarce,14883,2018-03,2026-07,8.3,"Padmapukur, Howrah - WBPCB"
+Kathmandu,NP,scarce,7710,2017-03,2026-06,9.2,Embassy Kathmandu
+Lahore,PK,scarce,25135,2019-05,2025-03,5.8,US Diplomatic Post: Lahore
+Karachi,PK,scarce,23747,2019-05,2025-03,5.8,Karachi
+Hanoi,VN,scarce,21632,2016-11,2025-04,8.4,Hanoi
+Jakarta,ID,scarce,25072,2016-11,2025-04,8.4,Jakarta Central
+Manila,PH,scarce,6909373,2023-09,2026-02,2.4,Manila
+Lima,PE,scarce,4171,2016-03,2026-07,10.3,CARABAYLLO
+Bogota,CO,scarce,29734,2016-11,2025-03,8.3,US Diplomatic Post: Bogota
+Lagos,NG,scarce,2251459,2022-12,2025-02,2.2,Lagos
+Nairobi,KE,scarce,16091678,2019-08,2023-02,3.5,"Nairobi, University of Nairobi, Parklands Campus, GEOHealth"
+Kampala,UG,scarce,25086,2017-02,2025-03,8.1,Kampala
+Accra,GH,scarce,30469,2020-05,2025-03,4.8,US Diplomatic Post: Accra
+Addis Ababa,ET,scarce,30190,2016-08,2026-05,9.8,Addis Ababa Central

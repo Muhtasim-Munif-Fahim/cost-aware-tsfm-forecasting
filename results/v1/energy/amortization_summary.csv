@@ -1,0 +1,7 @@
+city,device,train_per_fit_j,infer_fc_lgbm_j,infer_fc_chronos_j,lgbm_infer_cheaper,crossover_forecasts
+beijing,cpu,316.8,0.0331,0.1115,True,4041
+beijing,gpu,550.2,-0.2429,1.9421,True,252
+nairobi,cpu,202.6,0.0653,0.1112,True,4416
+nairobi,gpu,348.4,0.0747,0.3217,True,1411
+seoul,cpu,245.8,0.0216,0.1101,True,2778
+seoul,gpu,422.7,0.13,0.3269,True,2147
