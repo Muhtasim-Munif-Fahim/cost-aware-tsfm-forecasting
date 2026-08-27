@@ -2,29 +2,22 @@
 
 Research code, data pipeline, and results for a paper targeting **Scientific Reports**.
 The study asks a practical, cost-aware question about time-series foundation models (TSFMs)
-across **two forecasting domains — hourly PM2.5 and 2 m temperature — over 29 cities**.
+across **two forecasting domains hourly PM2.5 and 2 m temperature over 29 cities**.
 
 ## Research question
 
 > **When** does a small zero-shot time-series foundation model match or beat a tuned,
-> efficient local specialist once you price in deployment (compute/energy) cost — and how do
+> efficient local specialist once you price in deployment (compute/energy) cost and how do
 > the three deployment strategies (a NAS-discovered tiny specialist, transfer learning from
 > data-rich cities, and a zero-shot foundation model) compare across data-availability
 > regimes and across data-rich vs. data-scarce cities?
 
-**Deliverable:** an operator decision rule — *which model class to deploy per regime,
+**Deliverable:** an operator decision rule *which model class to deploy per regime,
 cost-adjusted* — with particular relevance to data-scarce, low-resource cities. Every
 quantitative claim in the manuscript is traced to an artifact and command in
 [`paper/RESULTS_LEDGER.md`](paper/RESULTS_LEDGER.md) and verified by the audit gate
 (`analysis/number_audit.py`).
 
-## Why it fits Scientific Reports
-
-- SR publishes PM2.5 / load forecasting continuously; review is **soundness-only**, rewarding
-  rigor (strong baselines, multiple seeds/folds, interpretability, reproducibility) over novelty.
-- The gap is real (verified via Consensus): existing work optimizes accuracy only; none price
-  deployment cost or give a cross-city decision rule.
-- Interdisciplinary (ML × environmental health × sustainability/equity) = SR's sweet spot.
 
 ## Models compared
 
